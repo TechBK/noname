@@ -1,0 +1,401 @@
+/* COLORS */
+/* COLORS */
+/* line 5, ../sass/navigation.scss */
+ul.inline li {
+  padding: 0 5px 5px 0;
+  color: #999;
+}
+/* line 8, ../sass/navigation.scss */
+ul.inline li a {
+  display: inline-block;
+  text-transform: capitalize;
+}
+/* line 12, ../sass/navigation.scss */
+ul.inline li.node-readmore {
+  float: right;
+}
+/* line 15, ../sass/navigation.scss */
+ul.inline li.statistics_counter {
+  margin-top: 5px;
+}
+/* line 17, ../sass/navigation.scss */
+ul.inline li.statistics_counter:before {
+  content: "\f06e";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 21, ../sass/navigation.scss */
+ul.inline li.statistics_counter span {
+  display: inline-block;
+  padding-left: 5px;
+}
+/* line 26, ../sass/navigation.scss */
+ul.inline li.blog_usernames_blog {
+  float: right;
+}
+/* line 29, ../sass/navigation.scss */
+ul.inline li.comment-comments {
+  margin-right: 10px;
+}
+/* line 31, ../sass/navigation.scss */
+ul.inline li.comment-comments:before {
+  content: "\f075";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: 5px;
+}
+/* line 36, ../sass/navigation.scss */
+ul.inline li.comment-comments a {
+  background: none;
+  padding: 0;
+}
+/* line 43, ../sass/navigation.scss */
+ul.inline li a.active:hover, ul.inline li a.active:focus {
+  color: #11b7da;
+}
+
+/* line 50, ../sass/navigation.scss */
+.action-links {
+  margin: 0 0 15px;
+  padding: 0;
+}
+/* line 53, ../sass/navigation.scss */
+.action-links li {
+  list-style: none;
+}
+/* line 55, ../sass/navigation.scss */
+.action-links li a {
+  background: #11b7da;
+  font-family: armataregular, sans-serif;
+  font-size: 1.167em;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  padding: 5px 10px;
+  text-transform: none;
+}
+/* line 64, ../sass/navigation.scss */
+.action-links li a:hover, .action-links li a:focus {
+  background: #333333;
+}
+/* line 69, ../sass/navigation.scss */
+.action-links.action-links-field-collection-add li a {
+  background: none;
+  color: #11b7da;
+}
+/* line 72, ../sass/navigation.scss */
+.action-links.action-links-field-collection-add li a:hover, .action-links.action-links-field-collection-add li a:focus {
+  text-decoration: underline;
+}
+
+/* pager */
+/* line 79, ../sass/navigation.scss */
+.item-list .pager {
+  margin: 20px 0 0;
+  text-align: right;
+}
+/* line 82, ../sass/navigation.scss */
+.item-list .pager li {
+  color: #7d7d7d;
+  display: inline-block;
+  margin: 0 0 4px 2px;
+  padding: 0;
+  text-align: right;
+}
+/* line 89, ../sass/navigation.scss */
+.item-list .pager li a:hover, .item-list .pager li a:focus {
+  background: #11b7da;
+  color: white;
+}
+/* line 96, ../sass/navigation.scss */
+.item-list .pager li > a,
+.item-list .pager li > span {
+  background: #7d7d7d;
+  border: none;
+  border-radius: 0;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  white-space: nowrap;
+}
+/* line 106, ../sass/navigation.scss */
+.item-list .pager .pager-current {
+  background: #11b7da;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+/* Primary */
+/* line 116, ../sass/navigation.scss */
+ul.primary {
+  margin: 0 0 10px;
+  padding: 0;
+  border-bottom: none;
+  overflow: hidden;
+  white-space: inherit;
+}
+/* line 122, ../sass/navigation.scss */
+ul.primary li {
+  border: none;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  margin-right: 5px;
+}
+/* line 128, ../sass/navigation.scss */
+ul.primary li:before {
+  content: "\f111";
+  margin-right: 3px;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 5px;
+  margin-top: 5px;
+  float: left;
+}
+/* line 137, ../sass/navigation.scss */
+ul.primary li:first-child:before {
+  content: "";
+}
+/* line 140, ../sass/navigation.scss */
+ul.primary li:first-child a {
+  margin-left: 0;
+}
+/* line 144, ../sass/navigation.scss */
+ul.primary li a {
+  background: none;
+  border: none;
+  color: #7d7d7d;
+  margin: 0 0 0 5px;
+  padding: 0;
+}
+/* line 150, ../sass/navigation.scss */
+ul.primary li a:hover, ul.primary li a:focus, ul.primary li a.active {
+  background: none;
+  border: none;
+  color: #11b7da;
+}
+
+/* line 160, ../sass/navigation.scss */
+.block-tagclouds .tagclouds-term a {
+  background: #c3c3c3;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 0 2px 5px 0;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+}
+/* line 170, ../sass/navigation.scss */
+.block-tagclouds .tagclouds-term a:hover, .block-tagclouds .tagclouds-term a:focus {
+  background-color: #11b7da;
+  color: white;
+}
+/* line 184, ../sass/navigation.scss */
+.block-tagclouds .tagclouds-term .tagclouds.level1,
+.block-tagclouds .tagclouds-term .tagclouds.level2,
+.block-tagclouds .tagclouds-term .tagclouds.level3,
+.block-tagclouds .tagclouds-term .tagclouds.level4,
+.block-tagclouds .tagclouds-term .tagclouds.level5,
+.block-tagclouds .tagclouds-term .tagclouds.level6,
+.block-tagclouds .tagclouds-term .tagclouds.level7,
+.block-tagclouds .tagclouds-term .tagclouds.level8,
+.block-tagclouds .tagclouds-term .tagclouds.level9,
+.block-tagclouds .tagclouds-term .tagclouds.level10 {
+  font-size: 1em;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+}
+
+/* Back to top */
+/* line 191, ../sass/navigation.scss */
+.btn-btt {
+  background: #11b7da;
+  bottom: 30px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: white;
+  display: block;
+  font-size: 0;
+  height: 30px;
+  line-height: 30px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  width: 50px;
+  z-index: 999;
+}
+/* line 206, ../sass/navigation.scss */
+.btn-btt:before {
+  content: "\f077";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+/* line 213, ../sass/navigation.scss */
+.btn-btt:hover, .btn-btt:focus {
+  background: #333333;
+  color: white;
+}
+
+/* Button sidebar link */
+/* line 220, ../sass/navigation.scss */
+.button-sidebar-link {
+  background: #11b7da;
+  -webkit-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  color: white !important;
+  right: -40px;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  width: 40px;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+}
+/* line 232, ../sass/navigation.scss */
+.button-sidebar-link:before {
+  content: "\f054";
+  display: block;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.167em;
+  font-weight: bold;
+  line-height: 40px;
+}
+/* line 240, ../sass/navigation.scss */
+.button-sidebar-link.close {
+  font-size: 1em;
+  opacity: 1;
+  right: -25px;
+  text-shadow: none;
+}
+/* line 245, ../sass/navigation.scss */
+.button-sidebar-link.close:before {
+  content: "\f053";
+}
+/* line 249, ../sass/navigation.scss */
+.button-sidebar-link:hover, .button-sidebar-link:focus {
+  background-color: #333333;
+}
+
+/* tags */
+/* line 257, ../sass/navigation.scss */
+.field-name-field-tags,
+.field-name-field-section,
+.field-name-field-category {
+  font-size: 1em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+/* line 261, ../sass/navigation.scss */
+.field-name-field-tags .field-label,
+.field-name-field-section .field-label,
+.field-name-field-category .field-label {
+  float: left;
+  margin-top: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 267, ../sass/navigation.scss */
+.field-name-field-tags .field-items,
+.field-name-field-section .field-items,
+.field-name-field-category .field-items {
+  margin-left: 8px;
+  overflow: hidden;
+  text-transform: capitalize;
+}
+/* line 271, ../sass/navigation.scss */
+.field-name-field-tags .field-items .field-item,
+.field-name-field-section .field-items .field-item,
+.field-name-field-category .field-items .field-item {
+  display: inline-block;
+  margin: 0 5px 5px 0;
+}
+/* line 274, ../sass/navigation.scss */
+.field-name-field-tags .field-items .field-item a,
+.field-name-field-section .field-items .field-item a,
+.field-name-field-category .field-items .field-item a {
+  background: #ccc;
+  color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 4px 8px 3px;
+  font-size: 0.912em;
+}
+/* line 281, ../sass/navigation.scss */
+.field-name-field-tags .field-items .field-item a:hover, .field-name-field-tags .field-items .field-item a:focus,
+.field-name-field-section .field-items .field-item a:hover,
+.field-name-field-section .field-items .field-item a:focus,
+.field-name-field-category .field-items .field-item a:hover,
+.field-name-field-category .field-items .field-item a:focus {
+  background: #11b7da;
+}
+
+/* line 289, ../sass/navigation.scss */
+.views-field-field-tags {
+  float: left;
+  overflow: hidden;
+}
+/* line 292, ../sass/navigation.scss */
+.views-field-field-tags .item-list ul li {
+  list-style: none;
+  margin-left: 0;
+  margin-right: 1px;
+  float: left;
+  margin-bottom: 1px;
+}
+/* line 298, ../sass/navigation.scss */
+.views-field-field-tags .item-list ul li a {
+  background: #ccc;
+  color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px 8px 3px 8px;
+  display: inline-block;
+  font-size: 0.912em;
+}
+/* line 305, ../sass/navigation.scss */
+.views-field-field-tags .item-list ul li a:hover, .views-field-field-tags .item-list ul li a:focus {
+  background: #11b7da;
+}

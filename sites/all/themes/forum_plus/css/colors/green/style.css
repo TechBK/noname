@@ -1,0 +1,413 @@
+/* COLORS */
+/* COLORS */
+/*---- html ------*/
+/* line 5, ../../../sass/colors/green/style.scss */
+a {
+  color: #09a78f;
+}
+/* line 7, ../../../sass/colors/green/style.scss */
+a:hover, a:focus {
+  color: #7d7d7d;
+}
+
+/* line 12, ../../../sass/colors/green/style.scss */
+blockquote {
+  border-left-color: #09a78f;
+}
+
+/*---- Block -----*/
+/* line 18, ../../../sass/colors/green/style.scss */
+.sidebar h2 {
+  background: url(images/bg-title.jpg) 0 0 no-repeat #09a78f;
+}
+/* line 23, ../../../sass/colors/green/style.scss */
+.sidebar .item-list .quicktabs-tabs li a {
+  background: #09a78f;
+}
+/* line 27, ../../../sass/colors/green/style.scss */
+.sidebar .item-list .quicktabs-tabs li.active a {
+  color: #09a78f;
+}
+/* line 36, ../../../sass/colors/green/style.scss */
+.sidebar .item-list ul li a:hover, .sidebar .item-list ul li a:focus {
+  color: #09a78f;
+}
+/* line 44, ../../../sass/colors/green/style.scss */
+.sidebar .quicktabs-tabpage .views-field-title a {
+  color: #09a78f;
+}
+/* line 46, ../../../sass/colors/green/style.scss */
+.sidebar .quicktabs-tabpage .views-field-title a:hover, .sidebar .quicktabs-tabpage .views-field-title a:focus {
+  color: #333333;
+}
+/* line 55, ../../../sass/colors/green/style.scss */
+.sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus {
+  color: #09a78f;
+}
+/* line 60, ../../../sass/colors/green/style.scss */
+.sidebar ul.menu li.expanded > a {
+  color: #09a78f;
+}
+/* line 62, ../../../sass/colors/green/style.scss */
+.sidebar ul.menu li.expanded > a:after {
+  border-bottom: 5px solid #09a78f;
+}
+
+/* line 73, ../../../sass/colors/green/style.scss */
+.faq-question.faq-qa-visible .active {
+  color: #09a78f;
+}
+
+/* Login form */
+/* line 82, ../../../sass/colors/green/style.scss */
+#modalContent .popups-container .modal-header {
+  background: url(images/bg-title.jpg) 0 0 no-repeat #09a78f;
+}
+/* line 87, ../../../sass/colors/green/style.scss */
+#modalContent .popups-container #modal-content form .form-submit:hover, #modalContent .popups-container #modal-content form .form-submit:focus {
+  background: #09a78f;
+}
+/* line 92, ../../../sass/colors/green/style.scss */
+#modalContent .popups-container #modal-content form .item-list li a:hover, #modalContent .popups-container #modal-content form .item-list li a:focus {
+  color: #09a78f;
+}
+
+/*----- menu -----*/
+/* line 108, ../../../sass/colors/green/style.scss */
+.navbar-default ul.menu li a.active, .navbar-default ul.menu li a.active-trail, .navbar-default ul.menu li a:hover, .navbar-default ul.menu li a:focus {
+  background: #09a78f;
+}
+/* line 116, ../../../sass/colors/green/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li a:hover, .navbar-default ul.menu li.expanded ul.menu li a:focus, .navbar-default ul.menu li.expanded ul.menu li a.active-trail {
+  background: white;
+  color: #09a78f;
+}
+/* line 124, ../../../sass/colors/green/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu li a:hover, .navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu li a:focus {
+  background: #09a78f;
+}
+
+/*----- Navigation -----*/
+/* ul.inline {
+    li {
+        a {
+            &:hover, &:focus {
+                background: $green;
+            }
+        }
+    }
+} */
+/* line 150, ../../../sass/colors/green/style.scss */
+.action-links li a {
+  background: #09a78f;
+}
+/* line 152, ../../../sass/colors/green/style.scss */
+.action-links li a:hover, .action-links li a:focus {
+  background: #333333;
+}
+/* line 157, ../../../sass/colors/green/style.scss */
+.action-links.action-links-field-collection-add li a {
+  color: #09a78f;
+}
+/* line 159, ../../../sass/colors/green/style.scss */
+.action-links.action-links-field-collection-add li a:hover, .action-links.action-links-field-collection-add li a:focus {
+  background-color: transparent;
+}
+
+/* pager */
+/* line 167, ../../../sass/colors/green/style.scss */
+.item-list .pager li:hover a, .item-list .pager li:focus a, .item-list .pager .pager-current {
+  background: #09a78f;
+}
+/* line 171, ../../../sass/colors/green/style.scss */
+.item-list .pager li a:hover, .item-list .pager li a:focus {
+  background-color: #09a78f;
+}
+
+/* Primary */
+/* line 181, ../../../sass/colors/green/style.scss */
+ul.primary li a:hover, ul.primary li a:focus, ul.primary li a.active {
+  color: #09a78f;
+}
+
+/* line 190, ../../../sass/colors/green/style.scss */
+.block-tagclouds .tagclouds-term a:hover, .block-tagclouds .tagclouds-term a:focus {
+  background: #09a78f;
+}
+
+/* Back to top */
+/* line 197, ../../../sass/colors/green/style.scss */
+.btn-btt {
+  background: #09a78f;
+}
+/* line 199, ../../../sass/colors/green/style.scss */
+.btn-btt:hover, .btn-btt:focus {
+  background: #333333;
+}
+
+/* Button sidebar link */
+/* line 205, ../../../sass/colors/green/style.scss */
+.button-sidebar-link {
+  background: #09a78f;
+}
+
+/*----- Page -----*/
+/* line 212, ../../../sass/colors/green/style.scss */
+.form-submit:hover, .form-submit:focus,
+.form-actions > a:hover,
+.form-actions > a:focus {
+  background: #09a78f;
+  border-color: #09a78f;
+}
+
+/* Headline */
+/* line 222, ../../../sass/colors/green/style.scss */
+.headline .social-list li a:hover, .headline .social-list li a:focus {
+  color: #09a78f;
+}
+/* line 228, ../../../sass/colors/green/style.scss */
+.headline #block-search-form:hover:before {
+  color: #09a78f;
+}
+/* line 235, ../../../sass/colors/green/style.scss */
+.headline .block-menu ul.menu a:hover, .headline .block-menu ul.menu a:focus {
+  color: #09a78f;
+}
+
+/* Header */
+/* line 245, ../../../sass/colors/green/style.scss */
+.header:after {
+  background: url(images/bg-title.jpg) 0 0 no-repeat #09a78f;
+}
+
+/* Search */
+/* line 251, ../../../sass/colors/green/style.scss */
+.search-wrapper {
+  background: #09a78f;
+}
+
+/* Breadcrumb */
+/* line 257, ../../../sass/colors/green/style.scss */
+.breadcrumb a {
+  border-bottom: 1px solid #09a78f;
+}
+/* line 259, ../../../sass/colors/green/style.scss */
+.breadcrumb a:hover, .breadcrumb a:focus {
+  color: #09a78f;
+}
+
+/* line 265, ../../../sass/colors/green/style.scss */
+.section-title {
+  background: url("images/bg-banner.jpg") no-repeat 50% 0 #70c7a5;
+}
+
+/* Panel */
+/* line 270, ../../../sass/colors/green/style.scss */
+#panel-first {
+  background: white;
+  color: #7d7d7d;
+}
+/* line 273, ../../../sass/colors/green/style.scss */
+#panel-first a {
+  color: #09a78f;
+}
+/* line 275, ../../../sass/colors/green/style.scss */
+#panel-first a:hover, #panel-first a:focus {
+  text-decoration: underline;
+}
+
+/* line 286, ../../../sass/colors/green/style.scss */
+#panel-second .block ul.menu li a:hover, #panel-second .block ul.menu li a:focus {
+  color: #09a78f;
+}
+/* line 295, ../../../sass/colors/green/style.scss */
+#panel-second .block .lang_dropdown_form .form-item .dd-select .dd-pointer-down {
+  border-top-color: #09a78f;
+}
+/* line 298, ../../../sass/colors/green/style.scss */
+#panel-second .block .lang_dropdown_form .form-item .dd-select .dd-pointer-up {
+  border-bottom-color: #09a78f !important;
+}
+
+/* line 307, ../../../sass/colors/green/style.scss */
+#panel-footer {
+  background: #09a78f;
+}
+
+/* Forum */
+/* line 317, ../../../sass/colors/green/style.scss */
+#forum .forum-table td .forum-name a:hover, #forum .forum-table td .forum-name a:focus {
+  color: #09a78f;
+}
+
+/* Footer */
+/* line 331, ../../../sass/colors/green/style.scss */
+#footer ul.menu li a:hover, #footer ul.menu li a:focus, #footer ul.menu li a.active {
+  color: #09a78f;
+}
+/* line 337, ../../../sass/colors/green/style.scss */
+#footer a:hover, #footer a:focus {
+  color: #09a78f;
+}
+
+/* Forum advance */
+/* line 346, ../../../sass/colors/green/style.scss */
+.af-button-large,
+.af-button-small,
+.author-pane-link,
+.forum-post-links ul.links li a {
+  background: #09a78f;
+}
+
+/* line 352, ../../../sass/colors/green/style.scss */
+.forum-table-topics td.views-field-title span:hover, .forum-table-topics td.views-field-title span:focus, .forum-table-topics td.views-field-title .topic-title:hover, .forum-table-topics td.views-field-title .topic-title:focus {
+  color: #09a78f;
+}
+
+/* line 362, ../../../sass/colors/green/style.scss */
+.topic-icon-hot-new:before,
+.topic-icon-new:before,
+.topic-icon-sticky:before,
+td.forum-list-icon-new-posts span:before,
+.forum-list-text-legend-new-posts:before {
+  color: #09a78f !important;
+}
+
+/* Table name and description on forum list and table header on topic list */
+/* line 373, ../../../sass/colors/green/style.scss */
+.forum-table-wrap .forum-table-superheader,
+.forum-table-topics,
+#forum .forum-table,
+.forum-post-info,
+#user-login h3,
+#user-register-form h3,
+#user-pass h3, .profile h3 {
+  background: url(images/bg-title.jpg) 0 0 repeat-y #09a78f;
+}
+
+/* line 379, ../../../sass/colors/green/style.scss */
+.forum-tools form > div:before {
+  border-top: 5px solid #09a78f;
+}
+
+/* View */
+/* line 388, ../../../sass/colors/green/style.scss */
+.views-field-title a:hover, .views-field-title a:focus,
+.views-field-subject a:hover,
+.views-field-subject a:focus {
+  color: #09a78f;
+}
+
+/* line 395, ../../../sass/colors/green/style.scss */
+.views-field-name .username,
+.views-field-created .username {
+  color: #09a78f;
+}
+
+/* line 402, ../../../sass/colors/green/style.scss */
+.forum-blog-view .views-row .views-field-title a:hover,
+.forum-blog-view .views-row .views-field-title a:focus {
+  color: #09a78f;
+}
+
+/* line 410, ../../../sass/colors/green/style.scss */
+.views-field-field-tags .item-list ul li a:hover, .views-field-field-tags .item-list ul li a:focus {
+  background: #09a78f;
+}
+
+/* line 420, ../../../sass/colors/green/style.scss */
+.field-name-field-tags div,
+.field-name-field-section div,
+.field-name-field-category div {
+  display: inline-block;
+}
+/* line 424, ../../../sass/colors/green/style.scss */
+.field-name-field-tags div + div a:hover, .field-name-field-tags div + div a:focus,
+.field-name-field-section div + div a:hover,
+.field-name-field-section div + div a:focus,
+.field-name-field-category div + div a:hover,
+.field-name-field-category div + div a:focus {
+  background: #09a78f;
+}
+
+/* line 437, ../../../sass/colors/green/style.scss */
+.field-name-field-tags .field-items .field-item a:hover,
+.field-name-field-tags .field-items .field-item a:focus,
+.field-name-field-section .field-items .field-item a:hover,
+.field-name-field-section .field-items .field-item a:focus,
+.field-name-field-category .field-items .field-item a:hover,
+.field-name-field-category .field-items .field-item a:focus {
+  background: #09a78f;
+}
+
+/* Node */
+/* line 444, ../../../sass/colors/green/style.scss */
+.node h2 a:hover, .node h2 a:focus {
+  color: #09a78f;
+}
+/* line 448, ../../../sass/colors/green/style.scss */
+.node .submitted .username {
+  color: #09a78f;
+}
+
+/* line 453, ../../../sass/colors/green/style.scss */
+.calendar-calendar {
+  background: url("images/bg-title.jpg") no-repeat 0 0 #e5b306;
+}
+
+/* line 457, ../../../sass/colors/green/style.scss */
+span.username {
+  color: #09a78f !important;
+}
+
+/* line 463, ../../../sass/colors/green/style.scss */
+.views-field-field-video-link a:before {
+  color: #09a78f;
+}
+
+/* Page 404 */
+/* line 471, ../../../sass/colors/green/style.scss */
+.page-404 h1 {
+  color: #09a78f;
+}
+/* line 475, ../../../sass/colors/green/style.scss */
+.page-404 #errorbox a:hover, .page-404 #errorbox a:focus {
+  background: #09a78f;
+}
+
+/* FAQs */
+/* line 485, ../../../sass/colors/green/style.scss */
+.faq .faq-question a:hover, .faq .faq-question a:focus {
+  color: #09a78f;
+}
+/* line 488, ../../../sass/colors/green/style.scss */
+.faq .faq-question a:before {
+  color: #09a78f;
+}
+/* line 493, ../../../sass/colors/green/style.scss */
+.faq .faq-question.faq-qa-visible a {
+  color: #09a78f;
+}
+
+/* line 504, ../../../sass/colors/green/style.scss */
+#content .forum-jump-links a.af-button-large:hover, #content .forum-jump-links a.af-button-large:focus,
+#content .forum-jump-links a.af-button-small:hover,
+#content .forum-jump-links a.af-button-small:focus,
+#content .forum-jump-links a.author-pane-link:hover,
+#content .forum-jump-links a.author-pane-link:focus {
+  color: #09a78f;
+}
+
+/* line 510, ../../../sass/colors/green/style.scss */
+.off-canvas-toggle {
+  color: #09a78f;
+}
+/* line 512, ../../../sass/colors/green/style.scss */
+.off-canvas-toggle:hover, .off-canvas-toggle:focus {
+  color: #09a78f;
+}
+
+/* line 520, ../../../sass/colors/green/style.scss */
+ul.inline li a.active:hover, ul.inline li a.active:focus {
+  color: #09a78f;
+}

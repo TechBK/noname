@@ -1,0 +1,193 @@
+@import "includes/_include";
+@import "includes/_mixins";
+
+#main-menu-wrapper {
+    font-size: .857em;
+    text-transform: uppercase;
+}
+
+/* Main menu */
+#main-menu-inner {
+    margin-top: 20px;
+    min-height: 110px;
+    padding-left: 0;
+    padding-right: 0;
+    .container {
+        padding: 0;
+        position: relative;
+        .region-main-menu {
+            float: right;
+            padding: 0;
+            .block-menu {
+                position: static;
+            }
+        }
+    }
+}
+
+.block-menu {
+    position: relative;
+    ul.menu {
+        margin: 0;
+        padding: 0;
+        li {
+            margin: 0;
+            padding: 0;
+            &.first-child {
+                a {
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+    ul.menu {
+        margin: 10px -10px 10px 0;
+        text-align: right;
+        li {
+            display: inline;
+            a {
+                display: inline-block;
+                padding: 7px 10px 3px;
+                @include font-style;
+                color: $dark-grey;
+                &.active,
+                &.active-trail,
+                &:hover,
+                &:focus {
+                    background: $blue;
+                    color: $white;
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                }
+            }
+            &.expanded {
+                list-style-image: none;
+                list-style-type: none;
+                ul.menu {
+                    background: none;
+                    opacity: 0;
+                    display: none;
+                    right: -10px;
+                    margin: 0;
+                    padding: 30px 0 0;
+                    position: absolute;
+                    top: 30px;
+                    text-align: right;
+                    width: 100%;
+                    z-index: 10;
+                    @include transition;
+                    li {
+                        display: inline-block;
+                        padding: 0;
+                        a {
+                            color: $white;
+                            padding: 0 10px;
+                            font-size: 1em;
+                            line-height: 40px;
+                            text-transform: none;
+                            &:hover, &:focus, &.active-trail {
+                                background: $white;
+                                color: $blue;
+                                border-radius: 0;
+                                text-decoration: none;
+                            }
+                        }
+                        &.expanded {
+                            position: relative;
+                            ul.menu {
+                                background: $white;
+                                display: none;
+                                filter: alpha(opacity = 0);
+                                opacity: 0;
+                                min-width: 170px;
+                                left: 0;
+                                padding: 0;
+                                text-align: left;
+                                top: 40px;
+                                width: auto;
+                                &:after {
+                                    border-bottom: none;
+                                }
+                                li {
+                                    display: block;
+                                    a {
+                                        color: $dark-grey;
+                                        display: block;
+                                        &:hover, &:focus {
+                                            background: $blue;
+                                            color: $white;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:hover, &:focus, &.active-trail:hover {
+                            ul.menu {
+                                display: block;
+                                opacity: 1;
+                                filter: none;
+                            }
+                        }
+                        &.forum-date {
+                            float: left;
+                            line-height: 40px;
+                            color: $white;
+                        }
+                    }
+                }
+                &:hover, &:focus, &.active-trail {
+                    ul.menu {
+                        opacity: 1;
+                        filter: none;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/********************
+* Mobile menu *
+********************/
+
+.navbar-toggle {
+  margin: 16px 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  text-align: center;
+  .icon-bar {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: #000;
+    width: 20px;
+  }
+  &:hover, &:focus {
+    background: none;
+  }
+}
+
+.btn-close {
+  @include transition;
+  display: none;
+  color: $white;
+  cursor: pointer;
+  position: absolute;
+  padding: 3px 7px;
+  right: 8px;
+  top: -25px;
+  font-size: 12px;
+  color: #aaa;
+  &:hover, &:focus {
+    color: $white;
+  }
+}

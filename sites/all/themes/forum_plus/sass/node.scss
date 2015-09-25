@@ -1,0 +1,391 @@
+@import "includes/_include";
+@import "includes/_mixins";
+
+.node {
+  background: $white;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0;
+  padding: 15px;
+  h2 {
+    @include font-style;     
+    line-height: normal;
+    margin-bottom: 3px;
+    a {
+      color: $dark-grey;
+      &:hover, &:focus {
+        color: $blue;
+      }
+    }
+  }
+  .field-name-body {
+    h2 {
+      font-size: 30px;
+      text-transform: none;
+    }
+    h1, h2, h3 {
+      margin-bottom: 10px;
+    }
+  }
+ 
+  .user-picture {
+    border: 1px solid $grey;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  .submitted {
+    font-size: 0.917em;
+    margin-bottom: 15px;    
+    span {
+      color: $light-grey;       
+      margin-right: 10px;
+      i {
+        margin-right: 5px;
+      }
+    }
+    .created {
+      display: block;
+    }
+    .username {
+      color: $blue;
+    }
+  } 
+  .embedded-video {
+    iframe {
+      width: 100%;
+    }
+  }
+}
+.node-teaser {
+  margin-bottom: 15px;
+}
+.node-teaser,
+.node-blog {
+  .content {
+    margin-bottom: 15px;
+  }
+  .inline {
+    li {
+      float: left;
+      &.sharethis {
+        border-top: 1px solid $grey;
+        clear: both;
+        float: right;
+        margin-top: 10px;
+        padding-top: 15px;
+        width: 100%;
+      }
+    }
+  }
+  
+}
+
+/*
+.node-teaser {
+  .group-head {
+    float: left;
+    width: 30%;
+  }
+  ul.links.inline {
+    float: right;
+  }
+  .field-name-body {
+    float: left;
+    text-align: justify;
+    width: 30%;
+  }
+  .field-name-field-image {
+    float: right;
+    margin-bottom: 15px;
+  }
+}
+*/
+
+/* comments */
+#comments {
+  padding-top: 30px; 
+  clear: both;
+  h2{
+    color: $dark-grey;
+    font-weight: normal;
+    margin-bottom: 0;
+    font-size: 1.333em;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+  }
+  .text-format-wrapper{
+    .form-item{
+      width: 100%;
+    }
+  }
+}
+.comment {
+  background: $white;
+  border-top: 1px solid $grey; 
+  position: relative;
+  padding: 15px 15px 15px 65px;
+  &:first-child {
+    border-top: none;
+  }
+  h3{
+    font-size: 1.125em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .submitted {
+    margin-bottom: 15px !important;
+    color: $dark-grey;
+    font-size: 0.929em;
+    position: relative;
+    .info {
+      display: inline-block;
+      margin-right: 20px;
+      vertical-align: bottom;
+      span {
+        display: block;
+      }
+    }
+    ul.inline {
+      display: inline-block;   
+      margin-bottom: 3px;  
+      margin-top: 0;
+    }
+  }
+  .content {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  ul.inline {
+    display: block;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  .user-picture {
+    border: 1px solid $grey;
+    max-width: 50px;
+    position: absolute;
+    left: 0;
+    top: 15px;
+  }
+  span.new {
+    background: red;
+    @include border-radius;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 2px 5px;
+  }
+}
+
+.page-comment-reply {
+  .comment {
+    padding-left: 80px;
+    .user-picture {
+      left: 15px;
+    }
+  }
+}
+
+.indented {
+  padding-left: 65px;
+  margin-left: 0;
+}
+
+.comment-preview {
+  background: $white;
+  @include border-radius-5; 
+  margin-bottom: 15px;
+  padding-bottom: 0;
+  padding-top: 0; 
+  .user-picture {   
+    top: 0;
+
+  }
+}
+
+.comment-form {
+  .form-actions{
+    margin-bottom: 30px;
+  }
+}
+
+.confirmation {
+  .form-actions{
+    margin-top: 25px;
+    .form-submit{
+      margin-right: 5px;
+    }
+  }
+}
+
+/* comment-form */
+.comment-form {
+  .form-type-item label {
+    margin-right: 10px;
+  }
+
+  .form-item-subject,
+  .form-type-textarea {
+    label {
+      display: block;
+    }
+  }
+
+  .form-item-subject input {
+    width: 300px;
+  }
+
+  .form-actions .form-submit {
+    margin-right: 10px;
+  }
+}
+
+/* Forum comment */
+#forum-comments {  
+  margin-top: 15px;
+  padding: 0;
+  .forum-post {
+    background: $white;
+    @include border-radius-10;
+    margin-bottom: 15px;
+    #new {
+      color: $white;
+      &:hover, &:focus {
+        color: $white;
+      }
+    }
+  }
+  h2.comment-form {
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    color: $dark-grey;
+    font-size: 1.333em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }  
+  .comment-form {
+    border-radius: 0;
+  }
+}
+.comment-form {
+  @include border-radius-5;
+  background: $white;
+  padding: 15px;
+  #edit-author {
+    .form-item, .form-actions {
+      position: relative;
+    }
+    label {
+      float: left;
+      width: 100px;
+    }
+  }
+  .comment {
+    padding-left: 65px !important;
+  }
+  .user-picture {
+    left: 0 !important;    
+  }
+
+}
+
+html.js input.form-autocomplete {
+  background-position: 98% 11px;
+}
+
+#autocomplete div {
+  padding: 5px;
+}
+
+.post-edited {
+  margin: 0;
+}
+
+#fivestar-custom-widget {
+  .fivestar-basic {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  div.description {
+    display: inline-block;
+  }
+}
+.page-comment-delete {
+  #page-title {
+    text-transform: none;
+    font-size: 2em;
+  }
+}
+
+.field-multiple-table {  
+  width: 100%;
+  tr.even, tr.odd {
+    background: none;
+    border: none;
+  }
+  .field-label {
+    border-bottom: none;
+    label {
+      border-bottom: 1px solid $grey;
+      color: $dark-grey;
+      display: block;
+      font-size: 1.333em;
+      margin-bottom: 20px;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+    }    
+  } 
+  tbody {
+    border: none;
+    .form-type-managed-file {      
+      .image-widget {
+        display: inline-block;
+        vertical-align: middle;
+        .form-file {
+          display: inline-block;          
+          @include border-radius;
+          margin: 0 10px 5px 0;
+          padding: 4px;
+        }
+      }
+      .description {
+        margin-top: 10px;
+      }
+    }  
+    .form-item {
+      margin-bottom: 15px;
+    }
+    legend {      
+      color: $dark-grey;
+      font-size: 1.333em;     
+      text-transform: uppercase;
+      
+    }  
+    label {
+      padding-right: 10px;
+    }
+  }   
+}
+.field-add-more-submit {
+  float: right;
+  margin-top: -30px;
+}
+
+.field-multiple-drag {
+  display: none;
+  width: 0;
+}
+
+.forum-articles-teaser {
+  .views-row {
+    margin-bottom: 15px;
+  }
+}
+
+.field-collection-container {
+  border-bottom: none;
+  margin-bottom: 0;
+}

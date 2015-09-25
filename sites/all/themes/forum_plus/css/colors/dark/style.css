@@ -1,0 +1,121 @@
+/* COLORS */
+/* COLORS */
+/* line 4, ../../../sass/colors/dark/style.scss */
+body {
+  background: #333333;
+}
+
+/* line 8, ../../../sass/colors/dark/style.scss */
+#headline {
+  background: #4e4e4e;
+}
+
+/* line 12, ../../../sass/colors/dark/style.scss */
+.header {
+  background: #3d3d3d;
+}
+/* line 14, ../../../sass/colors/dark/style.scss */
+.header:after {
+  background: url(images/bg-title.jpg) 0 0 no-repeat white;
+}
+
+/* line 19, ../../../sass/colors/dark/style.scss */
+.submenu-extend {
+  color: #7d7d7d;
+}
+
+/* line 25, ../../../sass/colors/dark/style.scss */
+.navbar-default ul.menu li a {
+  color: #c3c3c3;
+}
+/* line 30, ../../../sass/colors/dark/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li a {
+  color: #7d7d7d;
+}
+/* line 32, ../../../sass/colors/dark/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li a:hover, .navbar-default ul.menu li.expanded ul.menu li a:focus, .navbar-default ul.menu li.expanded ul.menu li a.active-trail {
+  background: #3d3d3d;
+}
+/* line 37, ../../../sass/colors/dark/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu {
+  background: #333333;
+}
+/* line 39, ../../../sass/colors/dark/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu li a {
+  color: #c3c3c3;
+}
+
+/* line 49, ../../../sass/colors/dark/style.scss */
+.preview h3 {
+  color: white;
+}
+
+/* line 53, ../../../sass/colors/dark/style.scss */
+#panel-first {
+  background: #4e4e4e;
+}
+
+/* line 57, ../../../sass/colors/dark/style.scss */
+#forum .forum-table thead tr th {
+  background: #4e4e4e;
+}
+
+/* line 61, ../../../sass/colors/dark/style.scss */
+.section-title {
+  background: url("images/bg-banner.jpg") no-repeat 50% 0 #0cacce;
+}
+
+/* line 65, ../../../sass/colors/dark/style.scss */
+#panel-footer {
+  background: #3d3d3d;
+  color: #c3c3c3;
+}
+/* line 68, ../../../sass/colors/dark/style.scss */
+#panel-footer h2 {
+  color: #c3c3c3;
+}
+/* line 72, ../../../sass/colors/dark/style.scss */
+#panel-footer .views-field-created,
+#panel-footer .views-field-name {
+  color: #7d7d7d;
+}
+/* line 74, ../../../sass/colors/dark/style.scss */
+#panel-footer .views-field-created .username,
+#panel-footer .views-field-name .username {
+  color: #11b7da !important;
+}
+/* line 78, ../../../sass/colors/dark/style.scss */
+#panel-footer ul.menu li a {
+  color: #c3c3c3;
+}
+/* line 80, ../../../sass/colors/dark/style.scss */
+#panel-footer ul.menu li a:hover, #panel-footer ul.menu li a:focus {
+  color: #11b7da;
+}
+/* line 84, ../../../sass/colors/dark/style.scss */
+#panel-footer a {
+  color: #c3c3c3;
+}
+/* line 86, ../../../sass/colors/dark/style.scss */
+#panel-footer a:hover, #panel-footer a:focus {
+  color: #11b7da;
+}
+/* line 91, ../../../sass/colors/dark/style.scss */
+#panel-footer .social-list li a:hover, #panel-footer .social-list li a:focus {
+  color: #11b7da;
+}
+
+/* line 99, ../../../sass/colors/dark/style.scss */
+#forum #forum-list-legend-header,
+#forum #forum-statistics #forum-statistics-header {
+  background: #3d3d3d;
+}
+
+/* line 108, ../../../sass/colors/dark/style.scss */
+#content .forum-jump-links a.af-button-large:hover, #content .forum-jump-links a.af-button-large:focus,
+#content .forum-jump-links a.af-button-small:hover,
+#content .forum-jump-links a.af-button-small:focus,
+#content .forum-jump-links a.author-pane-link:hover,
+#content .forum-jump-links a.author-pane-link:focus {
+  color: #11b7da;
+}

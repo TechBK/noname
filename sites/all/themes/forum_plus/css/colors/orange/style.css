@@ -1,0 +1,412 @@
+/* COLORS */
+/* COLORS */
+/*---- html ------*/
+/* line 5, ../../../sass/colors/orange/style.scss */
+a {
+  color: #e5b306;
+}
+/* line 7, ../../../sass/colors/orange/style.scss */
+a:hover, a:focus {
+  color: #7d7d7d;
+}
+
+/* line 12, ../../../sass/colors/orange/style.scss */
+blockquote {
+  border-left-color: #e5b306;
+}
+
+/*---- Block -----*/
+/* line 18, ../../../sass/colors/orange/style.scss */
+.sidebar h2 {
+  background: url(images/bg-title.jpg) 0 0 no-repeat #e5b306;
+}
+/* line 23, ../../../sass/colors/orange/style.scss */
+.sidebar .item-list .quicktabs-tabs li a {
+  background: #e5b306;
+}
+/* line 27, ../../../sass/colors/orange/style.scss */
+.sidebar .item-list .quicktabs-tabs li.active a {
+  color: #e5b306;
+}
+/* line 36, ../../../sass/colors/orange/style.scss */
+.sidebar .item-list ul li a:hover, .sidebar .item-list ul li a:focus {
+  color: #e5b306;
+}
+/* line 44, ../../../sass/colors/orange/style.scss */
+.sidebar .quicktabs-tabpage .views-field-title a {
+  color: #e5b306;
+}
+/* line 46, ../../../sass/colors/orange/style.scss */
+.sidebar .quicktabs-tabpage .views-field-title a:hover, .sidebar .quicktabs-tabpage .views-field-title a:focus {
+  color: #333333;
+}
+/* line 55, ../../../sass/colors/orange/style.scss */
+.sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus {
+  color: #e5b306;
+}
+/* line 60, ../../../sass/colors/orange/style.scss */
+.sidebar ul.menu li.expanded > a {
+  color: #e5b306;
+}
+/* line 62, ../../../sass/colors/orange/style.scss */
+.sidebar ul.menu li.expanded > a:after {
+  border-bottom: 5px solid #e5b306;
+}
+
+/* line 73, ../../../sass/colors/orange/style.scss */
+.faq-question.faq-qa-visible .active {
+  color: #e5b306;
+}
+
+/* Login form */
+/* line 82, ../../../sass/colors/orange/style.scss */
+#modalContent .popups-container .modal-header {
+  background: url(images/bg-title.jpg) 0 0 no-repeat #e5b306;
+}
+/* line 87, ../../../sass/colors/orange/style.scss */
+#modalContent .popups-container #modal-content form .form-submit:hover, #modalContent .popups-container #modal-content form .form-submit:focus {
+  background: #e5b306;
+}
+/* line 92, ../../../sass/colors/orange/style.scss */
+#modalContent .popups-container #modal-content form .item-list li a:hover, #modalContent .popups-container #modal-content form .item-list li a:focus {
+  color: #e5b306;
+}
+
+/*----- menu -----*/
+/* line 108, ../../../sass/colors/orange/style.scss */
+.navbar-default ul.menu li a.active, .navbar-default ul.menu li a.active-trail, .navbar-default ul.menu li a:hover, .navbar-default ul.menu li a:focus {
+  background: #e5b306;
+}
+/* line 116, ../../../sass/colors/orange/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li a:hover, .navbar-default ul.menu li.expanded ul.menu li a:focus, .navbar-default ul.menu li.expanded ul.menu li a.active-trail {
+  background: white;
+  color: #e5b306;
+}
+/* line 124, ../../../sass/colors/orange/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu li a:hover, .navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu li a:focus {
+  background: #e5b306;
+}
+
+/*----- Navigation -----*/
+/* ul.inline {
+    li {
+        a {
+            &:hover, &:focus {
+                background: $orange;
+            }
+        }
+    }
+} */
+/* line 150, ../../../sass/colors/orange/style.scss */
+.action-links li a {
+  background: #e5b306;
+}
+/* line 152, ../../../sass/colors/orange/style.scss */
+.action-links li a:hover, .action-links li a:focus {
+  background: #333333;
+}
+/* line 157, ../../../sass/colors/orange/style.scss */
+.action-links.action-links-field-collection-add li a {
+  color: #e5b306;
+}
+/* line 159, ../../../sass/colors/orange/style.scss */
+.action-links.action-links-field-collection-add li a:hover, .action-links.action-links-field-collection-add li a:focus {
+  background-color: transparent;
+}
+
+/* pager */
+/* line 167, ../../../sass/colors/orange/style.scss */
+.item-list .pager li:hover a, .item-list .pager li:focus a, .item-list .pager .pager-current {
+  background: #e5b306;
+}
+/* line 171, ../../../sass/colors/orange/style.scss */
+.item-list .pager li a:hover, .item-list .pager li a:focus {
+  background-color: #e5b306;
+}
+
+/* Primary */
+/* line 181, ../../../sass/colors/orange/style.scss */
+ul.primary li a:hover, ul.primary li a:focus, ul.primary li a.active {
+  color: #e5b306;
+}
+
+/* line 190, ../../../sass/colors/orange/style.scss */
+.block-tagclouds .tagclouds-term a:hover, .block-tagclouds .tagclouds-term a:focus {
+  background: #e5b306;
+}
+
+/* Back to top */
+/* line 197, ../../../sass/colors/orange/style.scss */
+.btn-btt {
+  background: #e5b306;
+}
+/* line 199, ../../../sass/colors/orange/style.scss */
+.btn-btt:hover, .btn-btt:focus {
+  background: #333333;
+}
+
+/* Button sidebar link */
+/* line 205, ../../../sass/colors/orange/style.scss */
+.button-sidebar-link {
+  background: #e5b306;
+}
+
+/*----- Page -----*/
+/* line 212, ../../../sass/colors/orange/style.scss */
+.form-submit:hover, .form-submit:focus,
+.form-actions > a:hover,
+.form-actions > a:focus {
+  background: #e5b306;
+  border-color: #e5b306;
+}
+
+/* Headline */
+/* line 222, ../../../sass/colors/orange/style.scss */
+.headline .social-list li a:hover, .headline .social-list li a:focus {
+  color: #e5b306;
+}
+/* line 228, ../../../sass/colors/orange/style.scss */
+.headline #block-search-form:hover:before {
+  color: #e5b306;
+}
+/* line 235, ../../../sass/colors/orange/style.scss */
+.headline .block-menu ul.menu a:hover, .headline .block-menu ul.menu a:focus {
+  color: #e5b306;
+}
+
+/* Header */
+/* line 245, ../../../sass/colors/orange/style.scss */
+.header:after {
+  background: url(images/bg-title.jpg) 0 0 no-repeat #e5b306;
+}
+
+/* Search */
+/* line 251, ../../../sass/colors/orange/style.scss */
+.search-wrapper {
+  background: #e5b306;
+}
+
+/* Breadcrumb */
+/* line 257, ../../../sass/colors/orange/style.scss */
+.breadcrumb a {
+  border-bottom: 1px solid #e5b306;
+}
+/* line 259, ../../../sass/colors/orange/style.scss */
+.breadcrumb a:hover, .breadcrumb a:focus {
+  color: #e5b306;
+}
+
+/* line 265, ../../../sass/colors/orange/style.scss */
+.section-title {
+  background: url("images/bg-banner.jpg") no-repeat 50% 0 #fbd195;
+}
+
+/* Panel */
+/* line 270, ../../../sass/colors/orange/style.scss */
+#panel-first {
+  background: white;
+  color: #7d7d7d;
+}
+/* line 273, ../../../sass/colors/orange/style.scss */
+#panel-first a {
+  color: #e5b306;
+}
+/* line 275, ../../../sass/colors/orange/style.scss */
+#panel-first a:hover, #panel-first a:focus {
+  text-decoration: underline;
+}
+
+/* line 286, ../../../sass/colors/orange/style.scss */
+#panel-second .block ul.menu li a:hover, #panel-second .block ul.menu li a:focus {
+  color: #e5b306;
+}
+/* line 295, ../../../sass/colors/orange/style.scss */
+#panel-second .block .lang_dropdown_form .form-item .dd-select .dd-pointer-down {
+  border-top-color: #e5b306;
+}
+/* line 298, ../../../sass/colors/orange/style.scss */
+#panel-second .block .lang_dropdown_form .form-item .dd-select .dd-pointer-up {
+  border-bottom-color: #e5b306 !important;
+}
+
+/* line 307, ../../../sass/colors/orange/style.scss */
+#panel-footer {
+  background: #e5b306;
+}
+
+/* Forum */
+/* line 317, ../../../sass/colors/orange/style.scss */
+#forum .forum-table td .forum-name a:hover, #forum .forum-table td .forum-name a:focus {
+  color: #e5b306;
+}
+
+/* line 330, ../../../sass/colors/orange/style.scss */
+#footer ul.menu li a:hover, #footer ul.menu li a:focus, #footer ul.menu li a.active {
+  color: #e5b306;
+}
+/* line 336, ../../../sass/colors/orange/style.scss */
+#footer a:hover, #footer a:focus {
+  color: #e5b306;
+}
+
+/* Forum advance */
+/* line 345, ../../../sass/colors/orange/style.scss */
+.af-button-large,
+.af-button-small,
+.author-pane-link,
+.forum-post-links ul.links li a {
+  background: #e5b306;
+}
+
+/* line 351, ../../../sass/colors/orange/style.scss */
+.forum-table-topics td.views-field-title span:hover, .forum-table-topics td.views-field-title span:focus, .forum-table-topics td.views-field-title .topic-title:hover, .forum-table-topics td.views-field-title .topic-title:focus {
+  color: #e5b306;
+}
+
+/* line 361, ../../../sass/colors/orange/style.scss */
+.topic-icon-hot-new:before,
+.topic-icon-new:before,
+.topic-icon-sticky:before,
+td.forum-list-icon-new-posts span:before,
+.forum-list-text-legend-new-posts:before {
+  color: #e5b306 !important;
+}
+
+/* Table name and description on forum list and table header on topic list */
+/* line 372, ../../../sass/colors/orange/style.scss */
+.forum-table-wrap .forum-table-superheader,
+.forum-table-topics thead tr,
+#forum .forum-table thead tr,
+.forum-post-info,
+#user-login h3,
+#user-register-form h3,
+#user-pass h3, .profile h3 {
+  background: url(images/bg-title.jpg) 0 0 repeat-y #e5b306;
+}
+
+/* line 378, ../../../sass/colors/orange/style.scss */
+.forum-tools form > div:before {
+  border-top: 5px solid #e5b306;
+}
+
+/* View */
+/* line 387, ../../../sass/colors/orange/style.scss */
+.views-field-title a:hover, .views-field-title a:focus,
+.views-field-subject a:hover,
+.views-field-subject a:focus {
+  color: #e5b306;
+}
+
+/* line 394, ../../../sass/colors/orange/style.scss */
+.views-field-name .username,
+.views-field-created .username {
+  color: #e5b306;
+}
+
+/* line 401, ../../../sass/colors/orange/style.scss */
+.forum-blog-view .views-row .views-field-title a:hover,
+.forum-blog-view .views-row .views-field-title a:focus {
+  color: #e5b306;
+}
+
+/* line 409, ../../../sass/colors/orange/style.scss */
+.views-field-field-tags .item-list ul li a:hover, .views-field-field-tags .item-list ul li a:focus {
+  background: #e5b306;
+}
+
+/* line 419, ../../../sass/colors/orange/style.scss */
+.field-name-field-tags div,
+.field-name-field-section div,
+.field-name-field-category div {
+  display: inline-block;
+}
+/* line 423, ../../../sass/colors/orange/style.scss */
+.field-name-field-tags div + div a:hover, .field-name-field-tags div + div a:focus,
+.field-name-field-section div + div a:hover,
+.field-name-field-section div + div a:focus,
+.field-name-field-category div + div a:hover,
+.field-name-field-category div + div a:focus {
+  background: #e5b306;
+}
+
+/* line 436, ../../../sass/colors/orange/style.scss */
+.field-name-field-tags .field-items .field-item a:hover,
+.field-name-field-tags .field-items .field-item a:focus,
+.field-name-field-section .field-items .field-item a:hover,
+.field-name-field-section .field-items .field-item a:focus,
+.field-name-field-category .field-items .field-item a:hover,
+.field-name-field-category .field-items .field-item a:focus {
+  background: #e5b306;
+}
+
+/* Node */
+/* line 443, ../../../sass/colors/orange/style.scss */
+.node h2 a:hover, .node h2 a:focus {
+  color: #e5b306;
+}
+/* line 447, ../../../sass/colors/orange/style.scss */
+.node .submitted .username {
+  color: #e5b306;
+}
+
+/* line 452, ../../../sass/colors/orange/style.scss */
+.calendar-calendar {
+  background: url("images/bg-title.jpg") no-repeat 0 0 #e5b306;
+}
+
+/* line 456, ../../../sass/colors/orange/style.scss */
+span.username {
+  color: #e5b306 !important;
+}
+
+/* line 462, ../../../sass/colors/orange/style.scss */
+.views-field-field-video-link a:before {
+  color: #e5b306;
+}
+
+/* Page 404 */
+/* line 470, ../../../sass/colors/orange/style.scss */
+.page-404 h1 {
+  color: #e5b306;
+}
+/* line 474, ../../../sass/colors/orange/style.scss */
+.page-404 #errorbox a:hover, .page-404 #errorbox a:focus {
+  background: #e5b306;
+}
+
+/* FAQs */
+/* line 484, ../../../sass/colors/orange/style.scss */
+.faq .faq-question a:hover, .faq .faq-question a:focus {
+  color: #e5b306;
+}
+/* line 487, ../../../sass/colors/orange/style.scss */
+.faq .faq-question a:before {
+  color: #e5b306;
+}
+/* line 492, ../../../sass/colors/orange/style.scss */
+.faq .faq-question.faq-qa-visible a {
+  color: #e5b306;
+}
+
+/* line 503, ../../../sass/colors/orange/style.scss */
+#content .forum-jump-links a.af-button-large:hover, #content .forum-jump-links a.af-button-large:focus,
+#content .forum-jump-links a.af-button-small:hover,
+#content .forum-jump-links a.af-button-small:focus,
+#content .forum-jump-links a.author-pane-link:hover,
+#content .forum-jump-links a.author-pane-link:focus {
+  color: #e5b306;
+}
+
+/* line 509, ../../../sass/colors/orange/style.scss */
+.off-canvas-toggle {
+  color: #e5b306;
+}
+/* line 511, ../../../sass/colors/orange/style.scss */
+.off-canvas-toggle:hover, .off-canvas-toggle:focus {
+  color: #e5b306;
+}
+
+/* line 519, ../../../sass/colors/orange/style.scss */
+ul.inline li a.active:hover, ul.inline li a.active:focus {
+  color: #e5b306;
+}

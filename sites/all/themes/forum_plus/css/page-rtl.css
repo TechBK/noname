@@ -1,0 +1,894 @@
+/* COLORS */
+/* COLORS */
+/* headline */
+/* line 6, ../sass/page-rtl.scss */
+.headline .block-menu {
+  float: left;
+  margin-right: 15px;
+}
+/* line 11, ../sass/page-rtl.scss */
+.headline .block-menu ul.menu a:after {
+  margin-right: 5px;
+  margin-left: 0;
+  vertical-align: middle;
+}
+/* line 19, ../sass/page-rtl.scss */
+.headline #block-search-form {
+  float: left;
+  margin-right: 0;
+}
+/* line 22, ../sass/page-rtl.scss */
+.headline #block-search-form:before {
+  right: auto;
+  left: 10px;
+}
+/* line 27, ../sass/page-rtl.scss */
+.headline #block-search-form #search-block-form input.form-text {
+  right: auto;
+  left: 0;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+/* line 33, ../sass/page-rtl.scss */
+.headline #block-search-form #search-block-form input.form-submit {
+  right: -45px;
+}
+/* line 38, ../sass/page-rtl.scss */
+.headline .social-list {
+  float: right;
+  padding-right: 0;
+}
+
+/* header */
+/* line 45, ../sass/page-rtl.scss */
+#logo {
+  left: auto;
+  right: 15px;
+}
+
+/* login */
+/* line 52, ../sass/page-rtl.scss */
+#user-login .form-checkbox {
+  float: right;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* menu */
+/* line 61, ../sass/page-rtl.scss */
+.navbar-default ul.menu {
+  margin-right: 0;
+  margin-left: -10px;
+  text-align: left;
+}
+/* line 66, ../sass/page-rtl.scss */
+.navbar-default ul.menu li.expanded ul.menu {
+  right: auto;
+  left: -10px;
+  text-align: left;
+}
+
+/* line 75, ../sass/page-rtl.scss */
+.submenu-extend {
+  left: auto;
+  right: 15px;
+}
+
+/* breadcrumb */
+/* line 82, ../sass/page-rtl.scss */
+.breadcrumb a {
+  display: inline-block;
+}
+/* line 85, ../sass/page-rtl.scss */
+.breadcrumb a:first-child:before {
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+/* primary */
+/* line 94, ../sass/page-rtl.scss */
+#page {
+  /* main content */
+  /* table */
+  /* selectbox */
+}
+/* line 96, ../sass/page-rtl.scss */
+#page ul.primary li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+/* line 99, ../sass/page-rtl.scss */
+#page ul.primary li:before {
+  margin-right: 0;
+  margin-left: 0;
+  content: "";
+}
+/* line 104, ../sass/page-rtl.scss */
+#page ul.primary li:after {
+  content: "\f111";
+  margin-left: 3px;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: left;
+}
+/* line 114, ../sass/page-rtl.scss */
+#page ul.primary li:last-child:after {
+  content: "";
+}
+/* line 121, ../sass/page-rtl.scss */
+#page span.forum-collapsible {
+  float: left;
+}
+/* line 123, ../sass/page-rtl.scss */
+#page span.forum-collapsible:before {
+  right: auto;
+  left: 0;
+}
+/* line 128, ../sass/page-rtl.scss */
+#page .button-sidebar-link {
+  right: auto;
+  left: -40px;
+  border-radius: 3px 0 0 3px;
+}
+/* line 132, ../sass/page-rtl.scss */
+#page .button-sidebar-link.close {
+  left: -25px;
+  right: auto;
+}
+/* line 139, ../sass/page-rtl.scss */
+#page .forum-table .forum-list-icon, #page .forum-table .forum-list-icon-new-posts {
+  padding-right: 10px;
+  padding-left: 0;
+}
+/* line 144, ../sass/page-rtl.scss */
+#page .forum-tools {
+  text-align: left;
+}
+/* line 148, ../sass/page-rtl.scss */
+#page .dd-option-image, #page .dd-selected-image {
+  float: right;
+  margin-right: 0;
+  margin-left: 5px;
+}
+/* line 153, ../sass/page-rtl.scss */
+#page .ddsDefault .dd-pointer {
+  right: auto;
+  left: 10px;
+}
+
+/* panel second */
+/* line 161, ../sass/page-rtl.scss */
+#panel-second .block {
+  float: right;
+}
+
+/* footer */
+/* line 168, ../sass/page-rtl.scss */
+#panel-footer .social-list {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 174, ../sass/page-rtl.scss */
+#panel-footer ul.menu li a {
+  padding-right: 10px;
+  padding-left: 0;
+}
+/* line 177, ../sass/page-rtl.scss */
+#panel-footer ul.menu li a:before {
+  content: "\f0d9";
+  left: auto;
+  right: 0;
+}
+
+/* line 188, ../sass/page-rtl.scss */
+#footer .block {
+  float: right;
+}
+/* line 191, ../sass/page-rtl.scss */
+#footer ul.menu li {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+/* line 199, ../sass/page-rtl.scss */
+.forum-panel-footer-view .views-row .views-field-picture {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* sidebar */
+/* line 210, ../sass/page-rtl.scss */
+.sidebar .block-views .views-field-picture {
+  float: right;
+  margin-right: 0;
+  margin-left: 15px;
+}
+/* line 216, ../sass/page-rtl.scss */
+.sidebar ul.menu li.expanded > a:after {
+  margin-left: 0;
+  margin-right: 8px;
+}
+/* line 221, ../sass/page-rtl.scss */
+.sidebar .item-list .quicktabs-tabs {
+  margin-right: -15px;
+}
+/* line 223, ../sass/page-rtl.scss */
+.sidebar .item-list .quicktabs-tabs li {
+  float: right;
+  border-right: none;
+  border-left: 1px solid #fff;
+}
+/* line 228, ../sass/page-rtl.scss */
+.sidebar .item-list .quicktabs-tabs li.last {
+  border-left: none;
+}
+
+/* line 237, ../sass/page-rtl.scss */
+.block-tagclouds .tagclouds-term a {
+  margin-left: 2px;
+  margin-right: 0;
+}
+
+/* line 244, ../sass/page-rtl.scss */
+.more-link {
+  text-align: right;
+}
+
+/* skins */
+/* line 250, ../sass/page-rtl.scss */
+.change-skin-menu-wrapper ul {
+  padding: 0;
+}
+/* line 253, ../sass/page-rtl.scss */
+.change-skin-menu-wrapper li {
+  float: right;
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+/* back to top */
+/* line 261, ../sass/page-rtl.scss */
+.btn-btt {
+  right: auto;
+  left: -4px;
+}
+
+/* popup */
+/* line 269, ../sass/page-rtl.scss */
+#modalContent .popups-container .modal-header .popups-close:before {
+  right: auto;
+  left: 5px;
+}
+/* line 274, ../sass/page-rtl.scss */
+#modalContent #modal-content form .form-type-checkbox input {
+  margin-right: 0;
+  margin-left: 5px;
+  float: right;
+}
+
+/* search */
+/* line 283, ../sass/page-rtl.scss */
+.search-form .form-item > label {
+  padding-right: 0;
+  padding-left: 8px;
+}
+
+/* line 289, ../sass/page-rtl.scss */
+html.js fieldset.collapsible .fieldset-legend {
+  background-position: 100% 75%;
+}
+
+/* line 293, ../sass/page-rtl.scss */
+html.js fieldset.collapsed .fieldset-legend {
+  background-position: 100% 50%;
+}
+
+/* line 297, ../sass/page-rtl.scss */
+.form-submit, .form-actions > a {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* line 302, ../sass/page-rtl.scss */
+.search-advanced .criterion .form-type-checkboxes .form-checkboxes .form-item input[type="radio"], .search-advanced .criterion .form-type-checkboxes .form-checkboxes .form-item input[type="checkbox"] {
+  float: right;
+  margin-left: 3px;
+  margin-right: 0;
+  margin-top: 2px;
+}
+
+/**********/
+/* line 310, ../sass/page-rtl.scss */
+.forum-node-create-links {
+  float: right;
+}
+/* line 312, ../sass/page-rtl.scss */
+.forum-node-create-links .forum-add-node {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* line 320, ../sass/page-rtl.scss */
+.forum-add-forum .af-button-large span:before {
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+/* line 327, ../sass/page-rtl.scss */
+.forum-table-topics .views-field-title {
+  text-align: right;
+}
+/* line 330, ../sass/page-rtl.scss */
+.forum-table-topics td.views-field-comment-count, .forum-table-topics td.views-field-totalcount {
+  text-align: right;
+}
+
+/* line 336, ../sass/page-rtl.scss */
+.forum-table th, .forum-table td {
+  text-align: right;
+}
+
+/* line 341, ../sass/page-rtl.scss */
+#forum-sort {
+  float: right;
+}
+
+/* line 347, ../sass/page-rtl.scss */
+#advanced-forum-forum-topic-list-sort-form,
+#advanced-forum-forum-topic-list-sort-form input,
+#advanced-forum-forum-topic-list-sort-form .form-item {
+  margin-right: 0 !important;
+  margin-left: 10px !important;
+}
+
+/* line 353, ../sass/page-rtl.scss */
+.forum-topic-legend div {
+  float: right;
+  margin-right: 0;
+  margin-left: 7px;
+}
+/* line 357, ../sass/page-rtl.scss */
+.forum-topic-legend div:before {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* line 366, ../sass/page-rtl.scss */
+.af-button-small span:before, .author-pane-link span:before, .af-button-large span:before {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* line 373, ../sass/page-rtl.scss */
+.forum-posted-on {
+  float: right;
+}
+
+/* line 377, ../sass/page-rtl.scss */
+.forum-post-number {
+  float: left;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* line 384, ../sass/page-rtl.scss */
+.forum-topic-header .topic-post-count {
+  margin-top: 4px;
+}
+
+/* line 389, ../sass/page-rtl.scss */
+.forum-post-panel-sub {
+  float: right;
+}
+/* line 394, ../sass/page-rtl.scss */
+.forum-post-panel-sub .author-pane .author-pane-link-line span:before {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* line 403, ../sass/page-rtl.scss */
+.forum-post-panel-main {
+  margin-left: 0;
+  margin-right: 185px;
+  border-left: none;
+  border-right: 1px solid #eaeaea;
+}
+
+/* line 410, ../sass/page-rtl.scss */
+#stcpDiv {
+  left: auto !important;
+}
+
+/* line 415, ../sass/page-rtl.scss */
+.forum-post-footer .forum-jump-links {
+  left: auto;
+  right: 15px;
+}
+/* line 419, ../sass/page-rtl.scss */
+.forum-post-footer .af-button-small span:before {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* line 425, ../sass/page-rtl.scss */
+ul.inline, ul.links.inline {
+  padding-right: 0;
+}
+
+/* line 429, ../sass/page-rtl.scss */
+.forum-post-links {
+  text-align: right;
+}
+/* line 432, ../sass/page-rtl.scss */
+.forum-post-links ul.links li.sharethis {
+  float: left;
+}
+/* line 435, ../sass/page-rtl.scss */
+.forum-post-links ul.links li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* line 445, ../sass/page-rtl.scss */
+.sharethis-buttons .st_facebook_custom,
+.sharethis-buttons .st_googleplus_custom,
+.views-field-sharethis .st_facebook_custom,
+.views-field-sharethis .st_googleplus_custom {
+  margin-left: 0;
+  margin-right: 2px;
+}
+
+/* comment form */
+/* line 453, ../sass/page-rtl.scss */
+.comment-form .form-actions .form-submit {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* faq page */
+/* line 462, ../sass/page-rtl.scss */
+.faq #faq-expand-all {
+  text-align: left;
+}
+/* line 466, ../sass/page-rtl.scss */
+.faq .faq-question a {
+  padding-right: 20px;
+  padding-left: 0;
+}
+/* line 469, ../sass/page-rtl.scss */
+.faq .faq-question a:before {
+  left: auto;
+  right: 0;
+}
+
+/* line 477, ../sass/page-rtl.scss */
+.calendar-calendar th.days {
+  text-align: right;
+}
+
+/* article page */
+/* line 482, ../sass/page-rtl.scss */
+.views-field-field-tags {
+  float: right;
+}
+/* line 484, ../sass/page-rtl.scss */
+.views-field-field-tags .item-list ul li {
+  margin-left: 1px;
+  margin-right: 0;
+}
+
+/* line 492, ../sass/page-rtl.scss */
+.field-name-field-tags .field-label,
+.field-name-field-section .field-label,
+.field-name-field-category .field-label {
+  float: right;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* line 500, ../sass/page-rtl.scss */
+.forum-blog-view .views-row .views-field-view-node {
+  float: left;
+}
+/* line 504, ../sass/page-rtl.scss */
+.forum-blog-view .views-row .forum-node-footer .views-field {
+  float: right;
+  margin-right: 0;
+  margin-left: 20px;
+}
+/* line 509, ../sass/page-rtl.scss */
+.forum-blog-view .views-row .forum-node-footer .sharethis-buttons, .forum-blog-view .views-row .forum-node-footer .views-field-sharethis {
+  float: left !important;
+  margin-right: 20px !important;
+  margin-left: 0 !important;
+}
+/* line 515, ../sass/page-rtl.scss */
+.forum-blog-view .views-row .views-field-picture {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* line 524, ../sass/page-rtl.scss */
+.mix-blog .views-field-field-image, .mix-blog .views-field-field-video-link {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/* node */
+/* line 533, ../sass/page-rtl.scss */
+.node .user-picture {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+/* line 539, ../sass/page-rtl.scss */
+.node ul.inline li {
+  padding-right: 0;
+  padding-left: 5px;
+}
+/* line 543, ../sass/page-rtl.scss */
+.node ul.inline li.node-readmore {
+  float: left;
+}
+/* line 547, ../sass/page-rtl.scss */
+.node .sharethis-buttons, .node .views-field-sharethis {
+  float: left !important;
+}
+/* line 550, ../sass/page-rtl.scss */
+.node .submitted span {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* line 558, ../sass/page-rtl.scss */
+.node-teaser .inline li, .node-blog .inline li {
+  float: right;
+  margin-right: 0;
+  margin-left: 5px;
+}
+/* line 563, ../sass/page-rtl.scss */
+.node-teaser .inline li.sharethis, .node-blog .inline li.sharethis {
+  padding-left: 0;
+}
+
+/* line 570, ../sass/page-rtl.scss */
+ul.inline li.comment-comments {
+  margin-right: 0;
+  margin-left: 10px;
+}
+/* line 573, ../sass/page-rtl.scss */
+ul.inline li.comment-comments:before {
+  padding-right: 0;
+  padding-left: 5px;
+}
+/* line 579, ../sass/page-rtl.scss */
+ul.inline li.statistics_counter:before {
+  margin-left: 5px;
+}
+
+/* .comment */
+/* line 586, ../sass/page-rtl.scss */
+.comment {
+  padding-left: 15px;
+  padding-right: 65px;
+}
+/* line 589, ../sass/page-rtl.scss */
+.comment .user-picture {
+  margin: 0;
+  left: auto;
+  right: 0;
+}
+/* line 594, ../sass/page-rtl.scss */
+.comment .submitted .info {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+/* what news page */
+/* line 602, ../sass/page-rtl.scss */
+.activity-stream .views-row {
+  padding-left: 15px;
+  padding-right: 80px;
+}
+/* line 605, ../sass/page-rtl.scss */
+.activity-stream .views-row .views-field-picture {
+  float: right;
+  margin-right: 0;
+  margin-left: 0;
+  left: auto;
+  right: 15px;
+}
+/* line 613, ../sass/page-rtl.scss */
+.activity-stream .views-field-created {
+  float: left;
+}
+/* line 616, ../sass/page-rtl.scss */
+.activity-stream .views-field-comment-count, .activity-stream .views-field-totalcount {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+/* contact page */
+/* line 624, ../sass/page-rtl.scss */
+.contact-content .fa {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* line 630, ../sass/page-rtl.scss */
+.headline .social-list li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+/* line 635, ../sass/page-rtl.scss */
+.change-skin-menu-wrapper .change-layout-button:first-child {
+  border-right: 1px solid #ccc;
+}
+
+/* line 640, ../sass/page-rtl.scss */
+.field-multiple-table tbody label {
+  padding-left: 10px;
+  padding-right: 0;
+}
+/* line 644, ../sass/page-rtl.scss */
+.field-multiple-table tbody .form-type-managed-file .image-widget .form-file {
+  margin-left: 10px;
+  margin-right: 0;
+  float: right;
+}
+
+/* line 651, ../sass/page-rtl.scss */
+.field-add-more-submit {
+  float: left;
+}
+
+/* line 655, ../sass/page-rtl.scss */
+.item-list .pager {
+  text-align: left;
+}
+
+/* line 660, ../sass/page-rtl.scss */
+.page-comment-reply .comment {
+  padding-right: 80px;
+}
+/* line 662, ../sass/page-rtl.scss */
+.page-comment-reply .comment .user-picture {
+  right: 15px;
+}
+
+/* line 668, ../sass/page-rtl.scss */
+.forum-topic-header .topic-post-count {
+  clear: left;
+  float: left;
+  margin-left: 7px;
+  margin-right: 0;
+}
+
+/* line 678, ../sass/page-rtl.scss */
+.forum-topic-header .topic-reply-link, .forum-topic-header .topic-new-post-link, .forum-topic-header .last-post-link {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* line 687, ../sass/page-rtl.scss */
+#modalContent #modal-content form .item-list {
+  float: right;
+}
+/* line 689, ../sass/page-rtl.scss */
+#modalContent #modal-content form .item-list li {
+  float: right;
+  margin-left: 0px;
+}
+/* line 692, ../sass/page-rtl.scss */
+#modalContent #modal-content form .item-list li:before {
+  margin-left: 5px;
+}
+/* line 697, ../sass/page-rtl.scss */
+#modalContent #modal-content form .form-submit {
+  float: left;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/* line 704, ../sass/page-rtl.scss */
+.contact-form .form-type-checkbox .form-checkbox {
+  margin-left: 5px;
+  margin-right: 0;
+  float: right;
+}
+
+/********************
+* Mobile menu *
+********************/
+/* line 714, ../sass/page-rtl.scss */
+.uk-offcanvas-bar {
+  left: auto;
+  right: 0;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(100%);
+}
+/* line 719, ../sass/page-rtl.scss */
+.uk-offcanvas-bar ul.menu {
+  padding-right: 0;
+}
+/* line 721, ../sass/page-rtl.scss */
+.uk-offcanvas-bar ul.menu > li {
+  margin-right: 0;
+  padding-left: 0;
+}
+/* line 724, ../sass/page-rtl.scss */
+.uk-offcanvas-bar ul.menu > li ul {
+  padding: 5px 30px 15px 0;
+}
+/* line 728, ../sass/page-rtl.scss */
+.uk-offcanvas-bar ul.menu .expanded > a:before {
+  left: 10px;
+  right: auto;
+}
+
+/* line 735, ../sass/page-rtl.scss */
+.uk-offcanvas-bar-flip {
+  left: 0;
+  right: auto;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+/* line 742, ../sass/page-rtl.scss */
+.off-canvas-toggle {
+  float: left;
+}
+
+/* responsive layout */
+@media (max-width: 991px) {
+  /* line 749, ../sass/page-rtl.scss */
+  #page {
+    /* --- Mobile menu --- */
+    /* End Mobile menu */
+  }
+  /* line 750, ../sass/page-rtl.scss */
+  #page .navbar-toggle {
+    right: auto;
+    left: 15px;
+  }
+  /* line 754, ../sass/page-rtl.scss */
+  #page .navbar-default ul.menu {
+    text-align: right;
+  }
+  /* line 758, ../sass/page-rtl.scss */
+  .html #page {
+    left: 0;
+    right: auto;
+  }
+  /* line 761, ../sass/page-rtl.scss */
+  .html #page.toggled {
+    left: 250px;
+    right: auto;
+  }
+  /* line 764, ../sass/page-rtl.scss */
+  .html #page.toggled #main-menu-inner {
+    left: 0;
+    right: auto;
+  }
+  /* line 770, ../sass/page-rtl.scss */
+  #page .overlay {
+    left: auto;
+    right: 0;
+  }
+  /* line 774, ../sass/page-rtl.scss */
+  #page #main-menu-inner {
+    left: -250px;
+    right: auto;
+  }
+  /* line 777, ../sass/page-rtl.scss */
+  #page #main-menu-inner ul.menu {
+    padding-right: 0;
+  }
+  /* line 779, ../sass/page-rtl.scss */
+  #page #main-menu-inner ul.menu > li {
+    margin-right: 0;
+    padding-left: 0;
+  }
+  /* line 782, ../sass/page-rtl.scss */
+  #page #main-menu-inner ul.menu > li ul {
+    padding: 5px 30px 15px 0;
+  }
+  /* line 785, ../sass/page-rtl.scss */
+  #page #main-menu-inner ul.menu > li ul li ul {
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  /* line 792, ../sass/page-rtl.scss */
+  #page #main-menu-inner ul.menu .expanded > a:before {
+    left: 10px;
+    right: auto;
+  }
+}
+@media (max-width: 767px) {
+  /* line 804, ../sass/page-rtl.scss */
+  #page #panel-footer .last-block {
+    text-align: right;
+  }
+  /* line 807, ../sass/page-rtl.scss */
+  #page #panel-footer .social-list {
+    float: right;
+  }
+}
+@media (max-width: 640px) {
+  /* line 814, ../sass/page-rtl.scss */
+  ul.inline li.blog_usernames_blog {
+    float: left;
+  }
+
+  /* line 818, ../sass/page-rtl.scss */
+  #page .node-forum-form .form-managed-file .form-file, #page .node-forum-form .form-managed-file .form-submit {
+    float: none;
+    display: inline-block;
+  }
+}
+@media (max-width: 480px) {
+  /* line 826, ../sass/page-rtl.scss */
+  .forum-post-panel-main {
+    margin-right: 0;
+  }
+
+  /* line 830, ../sass/page-rtl.scss */
+  #page .node-teaser ul.inline li.comment-comments {
+    float: right;
+  }
+
+  /* line 835, ../sass/page-rtl.scss */
+  .forum-post-panel-sub .author-pane .picture img {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 844, ../sass/page-rtl.scss */
+  #page .node-forum-form .form-managed-file .form-file, #page .node-forum-form .form-managed-file .form-submit {
+    display: block;
+  }
+}
+@media (max-width: 360px) {
+  /* line 850, ../sass/page-rtl.scss */
+  .comment {
+    padding-right: 15px;
+  }
+  /* line 852, ../sass/page-rtl.scss */
+  .comment .user-picture {
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+
+  /* line 857, ../sass/page-rtl.scss */
+  .indented {
+    padding-left: 0;
+    padding-right: 25px;
+  }
+
+  /* login */
+  /* line 864, ../sass/page-rtl.scss */
+  .logged-in .node-form .form-managed-file .form-file, .logged-in .node-form .form-managed-file .form-submit {
+    float: right;
+  }
+}
+@media (max-width: 320px) {
+  /* line 872, ../sass/page-rtl.scss */
+  .forum-topic-header .topic-reply-link, .forum-topic-header .topic-new-post-link, .forum-topic-header .last-post-link {
+    margin-right: 0 !important;
+    margin-left: 5px !important;
+  }
+}

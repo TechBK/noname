@@ -1,0 +1,520 @@
+/* COLORS */
+/* COLORS */
+/* no padding block */
+/* line 6, ../sass/block.scss */
+.no-padding .content {
+  padding: 0 !important;
+}
+
+/* sidebar */
+/* line 12, ../sass/block.scss */
+.sidebar {
+  padding: 0;
+  /* end quicktabs-tabpage */
+  /* end block-views */
+  /* end menu sidebar */
+}
+/* line 14, ../sass/block.scss */
+.sidebar h2 {
+  background-color: #11b7da;
+  background-repeat: repeat;
+  background-image: -webkit-linear-gradient(right, #11b7da, rgba(17, 183, 218, 0)), url(../images/bg-title.png);
+  /*Safari 5.1-6*/
+  background-image: -moz-linear-gradient(left, #11b7da, rgba(17, 183, 218, 0)), url(../images/bg-title.png);
+  /*Fx 3.6-15*/
+  background-image: -ms-linear-gradient(left, #11b7da, rgba(17, 183, 218, 0)), url(../images/bg-title.png);
+  /*I.E 10*/
+  background-image: linear-gradient(to left, #11b7da, rgba(17, 183, 218, 0)), url(../images/bg-title.png);
+  /*Standard*/
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  font-family: armataregular, sans-serif;
+  font-size: 1.167em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 15px;
+  color: white;
+}
+/* line 24, ../sass/block.scss */
+.sidebar .views-row {
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+/* line 29, ../sass/block.scss */
+.sidebar .block {
+  position: relative;
+}
+/* line 31, ../sass/block.scss */
+.sidebar .block + .block {
+  margin-top: 15px;
+}
+/* line 34, ../sass/block.scss */
+.sidebar .block .content {
+  background: white;
+  padding: 15px;
+}
+/* line 40, ../sass/block.scss */
+.sidebar .block-quicktabs .content {
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+/* line 45, ../sass/block.scss */
+.sidebar .item-list ul {
+  margin: 0;
+}
+/* line 47, ../sass/block.scss */
+.sidebar .item-list ul li {
+  margin: 0;
+  list-style: none;
+}
+/* line 50, ../sass/block.scss */
+.sidebar .item-list ul li a, .sidebar .item-list ul li span {
+  color: #7d7d7d;
+  border-bottom: 1px solid #eaeaea;
+  display: block;
+  font-family: armataregular, sans-serif;
+  font-size: 1.167em;
+  text-transform: uppercase;
+  text-transform: none;
+  font-size: 1em;
+  padding: 15px 0;
+}
+/* line 59, ../sass/block.scss */
+.sidebar .item-list ul li a:hover, .sidebar .item-list ul li a:focus {
+  color: #11b7da;
+}
+/* line 63, ../sass/block.scss */
+.sidebar .item-list ul li.first a {
+  padding-top: 0;
+}
+/* line 68, ../sass/block.scss */
+.sidebar .item-list ul li.last a, .sidebar .item-list ul li.last span {
+  border-bottom: none;
+}
+/* line 77, ../sass/block.scss */
+.sidebar .item-list .quicktabs-tabs {
+  margin: -15px -16px 15px -15px;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+}
+/* line 82, ../sass/block.scss */
+.sidebar .item-list .quicktabs-tabs li {
+  border-right: 1px solid white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  white-space: normal;
+  width: 33.3%;
+}
+/* line 91, ../sass/block.scss */
+.sidebar .item-list .quicktabs-tabs li a {
+  background: #11b7da;
+  border-bottom: none;
+  color: white;
+  display: block;
+  line-height: 1.2em;
+  padding: 12px;
+  font-family: armataregular, sans-serif;
+  font-size: 1.167em;
+  text-transform: uppercase;
+  min-height: 58px;
+}
+/* line 100, ../sass/block.scss */
+.sidebar .item-list .quicktabs-tabs li a:hover, .sidebar .item-list .quicktabs-tabs li a:focus {
+  color: white;
+}
+/* line 105, ../sass/block.scss */
+.sidebar .item-list .quicktabs-tabs li.active a {
+  background: white;
+  color: #11b7da;
+}
+/* line 111, ../sass/block.scss */
+.sidebar .item-list .quicktabs-tabs li.first a {
+  padding-top: 12px;
+}
+/* line 115, ../sass/block.scss */
+.sidebar .item-list .quicktabs-tabs li.last {
+  border-right: none;
+}
+/* line 117, ../sass/block.scss */
+.sidebar .item-list .quicktabs-tabs li.last a {
+  padding-bottom: 12px;
+}
+/* line 125, ../sass/block.scss */
+.sidebar .views-field-picture {
+  float: left;
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+/* line 131, ../sass/block.scss */
+.sidebar .quicktabs-tabpage {
+  margin: 0 -15px;
+  padding: 0;
+}
+/* line 134, ../sass/block.scss */
+.sidebar .quicktabs-tabpage .views-row {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+/* line 141, ../sass/block.scss */
+.sidebar .quicktabs-tabpage .views-field-title a {
+  color: #7d7d7d;
+}
+/* line 143, ../sass/block.scss */
+.sidebar .quicktabs-tabpage .views-field-title a:hover, .sidebar .quicktabs-tabpage .views-field-title a:focus {
+  color: #11b7da;
+}
+/* line 148, ../sass/block.scss */
+.sidebar .quicktabs-tabpage .views-field-counter {
+  color: #eaeaea;
+  font-size: .929em;
+}
+/* line 151, ../sass/block.scss */
+.sidebar .quicktabs-tabpage .views-field-counter i {
+  margin-right: 8px;
+}
+/* line 157, ../sass/block.scss */
+.sidebar .quicktabs-tabpage div.item-list ul li {
+  list-style: none;
+  padding: 15px 0;
+  margin-bottom: 0;
+}
+/* line 161, ../sass/block.scss */
+.sidebar .quicktabs-tabpage div.item-list ul li a {
+  border-bottom: none;
+}
+/* line 164, ../sass/block.scss */
+.sidebar .quicktabs-tabpage div.item-list ul li.last {
+  border-top: none;
+  padding-top: 0;
+}
+/* line 174, ../sass/block.scss */
+.sidebar .block-views .views-row {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+/* line 180, ../sass/block.scss */
+.sidebar .block-views .views-row-last {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 185, ../sass/block.scss */
+.sidebar .block-views .views-field-picture {
+  border: 1px solid #eaeaea;
+  float: left;
+  margin-right: 15px;
+}
+/* line 193, ../sass/block.scss */
+.sidebar ul.menu {
+  margin: 0 -15px;
+}
+/* line 196, ../sass/block.scss */
+.sidebar ul.menu li a {
+  color: #7d7d7d;
+  border-bottom: 1px solid #eaeaea;
+  display: block;
+  font-family: armataregular, sans-serif;
+  font-size: 1.167em;
+  text-transform: uppercase;
+  text-transform: none;
+  font-size: 1em;
+  padding: 15px 15px;
+}
+/* line 204, ../sass/block.scss */
+.sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus {
+  color: #11b7da;
+}
+/* line 209, ../sass/block.scss */
+.sidebar ul.menu li.first a {
+  padding-top: 3px;
+}
+/* line 213, ../sass/block.scss */
+.sidebar ul.menu li.expanded {
+  list-style: none;
+  list-style-image: none;
+}
+/* line 216, ../sass/block.scss */
+.sidebar ul.menu li.expanded > a:after {
+  border-bottom: 5px solid #11b7da;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  content: "";
+  height: 0;
+  display: inline-block;
+  margin-left: 8px;
+  width: 0;
+}
+/* line 226, ../sass/block.scss */
+.sidebar ul.menu li.expanded > a {
+  color: #11b7da;
+}
+/* line 230, ../sass/block.scss */
+.sidebar ul.menu li.last a {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+/* line 235, ../sass/block.scss */
+.sidebar ul.menu ul.menu {
+  border-bottom: 1px solid #eaeaea;
+  margin: 0;
+}
+/* line 239, ../sass/block.scss */
+.sidebar ul.menu ul.menu li a {
+  font-size: 1em;
+  padding: 15px 30px;
+}
+
+/* line 249, ../sass/block.scss */
+.forum-get-theme {
+  margin: -15px;
+}
+/* line 251, ../sass/block.scss */
+.forum-get-theme a {
+  display: block;
+  font-size: 0;
+  height: 136px;
+  width: 293px;
+}
+
+/* FAQs */
+/* line 260, ../sass/block.scss */
+.faq {
+  background: white;
+  border-radius: 5px 5px 0 0;
+  padding: 15px;
+}
+/* line 264, ../sass/block.scss */
+.faq .faq-question {
+  border-bottom: 1px solid #eaeaea;
+  padding: 15px 0;
+}
+/* line 267, ../sass/block.scss */
+.faq .faq-question a {
+  color: #7d7d7d;
+  display: block;
+  position: relative;
+  padding-left: 20px;
+}
+/* line 272, ../sass/block.scss */
+.faq .faq-question a:hover, .faq .faq-question a:focus {
+  color: #11b7da;
+}
+/* line 275, ../sass/block.scss */
+.faq .faq-question a:before {
+  color: #11b7da;
+  content: "\f128 ";
+  font-size: 2em;
+  font-weight: bold;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+/* line 288, ../sass/block.scss */
+.faq .faq-question.faq-qa-visible a {
+  color: #11b7da;
+}
+/* line 293, ../sass/block.scss */
+.faq .expanded {
+  border-bottom: none;
+}
+/* line 295, ../sass/block.scss */
+.faq .expanded .faq-question {
+  border-bottom: none;
+}
+/* line 304, ../sass/block.scss */
+.faq .faq-question-answer:last-child .faq-question, .faq .faq-question-answer:last-child .faq-answer {
+  border-bottom: none;
+}
+
+/* line 313, ../sass/block.scss */
+.faq-answer {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Login form */
+/* line 320, ../sass/block.scss */
+div.modal-forms-modal-content {
+  font-family: armataregular, sans-serif;
+}
+
+/* line 324, ../sass/block.scss */
+#modalContent div.modal-forms-modal-content {
+  height: auto !important;
+  min-height: 350px;
+}
+/* line 328, ../sass/block.scss */
+#modalContent .popups-container {
+  border-radius: 3px;
+}
+/* line 330, ../sass/block.scss */
+#modalContent .popups-container .modal-header {
+  background-color: #11b7da;
+  background-repeat: repeat;
+  background-image: -webkit-linear-gradient(right, #11b7da, rgba(17, 183, 218, 0)), url(../images/bg-title.png);
+  /*Safari 5.1-6*/
+  background-image: -moz-linear-gradient(left, #11b7da, rgba(17, 183, 218, 0)), url(../images/bg-title.png);
+  /*Fx 3.6-15*/
+  background-image: -ms-linear-gradient(left, #11b7da, rgba(17, 183, 218, 0)), url(../images/bg-title.png);
+  /*I.E 10*/
+  background-image: linear-gradient(to left, #11b7da, rgba(17, 183, 218, 0)), url(../images/bg-title.png);
+  /*Standard*/
+  padding: 13px 30px;
+}
+/* line 333, ../sass/block.scss */
+#modalContent .popups-container .modal-header .modal-title {
+  color: white;
+  font-size: 116%;
+  font-weight: 100;
+}
+/* line 338, ../sass/block.scss */
+#modalContent .popups-container .modal-header .popups-close {
+  background: none;
+  overflow: visible;
+  opacity: .8;
+  filter: alpha(opacity=80);
+  position: relative;
+}
+/* line 344, ../sass/block.scss */
+#modalContent .popups-container .modal-header .popups-close:before {
+  color: white;
+  content: "\f057";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  right: 5px;
+  width: 25px;
+}
+/* line 354, ../sass/block.scss */
+#modalContent .popups-container .modal-header .popups-close:hover, #modalContent .popups-container .modal-header .popups-close:focus {
+  opacity: 1;
+}
+/* line 360, ../sass/block.scss */
+#modalContent #modal-content {
+  box-shadow: none;
+  border: none;
+  height: auto !important;
+  padding: 0;
+  width: 100% !important;
+}
+/* line 366, ../sass/block.scss */
+#modalContent #modal-content form {
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 30px;
+  width: 100%;
+}
+/* line 373, ../sass/block.scss */
+#modalContent #modal-content form .form-item {
+  float: none;
+  width: 100%;
+}
+/* line 376, ../sass/block.scss */
+#modalContent #modal-content form .form-item .form-text {
+  background: #f4f4f4;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  height: 36px;
+}
+/* line 383, ../sass/block.scss */
+#modalContent #modal-content form .form-item .description {
+  color: #7d7d7d;
+}
+/* line 388, ../sass/block.scss */
+#modalContent #modal-content form .form-type-checkbox input {
+  margin-top: 2px;
+  margin-right: 5px;
+}
+/* line 393, ../sass/block.scss */
+#modalContent #modal-content form .form-submit {
+  background: #333333;
+  border: none;
+  float: right;
+  font-size: 1.167em;
+  padding: 7px 20px;
+}
+/* line 399, ../sass/block.scss */
+#modalContent #modal-content form .form-submit:hover, #modalContent #modal-content form .form-submit:focus {
+  background: #11b7da;
+}
+/* line 403, ../sass/block.scss */
+#modalContent #modal-content form .item-list {
+  float: left;
+  margin-top: 10px;
+}
+/* line 406, ../sass/block.scss */
+#modalContent #modal-content form .item-list li {
+  color: #7d7d7d;
+  float: left;
+  list-style: none;
+  margin: 0 0 0 5px;
+}
+/* line 411, ../sass/block.scss */
+#modalContent #modal-content form .item-list li:before {
+  content: "•";
+  margin-right: 5px;
+}
+/* line 415, ../sass/block.scss */
+#modalContent #modal-content form .item-list li a {
+  color: #7d7d7d;
+}
+/* line 417, ../sass/block.scss */
+#modalContent #modal-content form .item-list li a:hover, #modalContent #modal-content form .item-list li a:focus {
+  color: #11b7da;
+}
+/* line 422, ../sass/block.scss */
+#modalContent #modal-content form .item-list li.first:before {
+  display: none;
+}
+
+/* line 431, ../sass/block.scss */
+div.modal-forms-modal-content div.messages {
+  margin: 30px 30px 0;
+}
+
+/* line 436, ../sass/block.scss */
+#main .row > div {
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+}
+/* line 439, ../sass/block.scss */
+#main .row .sidebar {
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+/* line 446, ../sass/block.scss */
+.contextual-links-wrapper {
+  display: none;
+}
+
+/* line 447, ../sass/block.scss */
+.show-contextual-links .contextual-links-wrapper {
+  display: block;
+}

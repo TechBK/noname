@@ -1,0 +1,81 @@
+@import "includes/_include";
+@import "includes/_mixins";
+@import url(../fonts/font-awesome/css/font-awesome.css);
+@import url(../fonts/stylesheet.css);
+
+body {
+  background: $grey;
+	color: $dark-grey;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	font-family: armataregular, sans-serif;
+	font-size: 12px;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%
+}
+
+a {
+	color: $blue;	
+	&:hover, &:focus {
+		color: $dark-grey;
+    outline: none;
+		text-decoration: none;	
+	}
+}
+
+h1, h2, h3 {
+	color: $dark;
+  line-height: normal;
+	margin: 0 0 20px;
+}
+
+.form-text {
+	@include border-radius;
+	color: $dark-grey;
+  &:hover, &:focus {
+    color: $dark-grey;
+  }
+}
+
+img { 
+  max-width: 100%;
+  height: auto;
+}
+
+input, button, select, textarea {
+	background: $white;
+	border: 1px solid $dark-grey;  
+	padding: 5px 10px;
+}
+
+textarea {
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+input[type="text"] {
+  height: 30px;
+}
+
+select {
+  min-width: 150px;
+  @include border-radius;
+  padding: 5px 10px;
+  line-height: 30px;
+  height: 30px;
+}
+
+label {
+	font-weight: 100;
+}
+
+blockquote {
+  border-left-color: $blue;
+  font-size: 1em;
+  font-style: italic;
+}
+
